@@ -1,0 +1,46 @@
+button{
+  background-color: green;
+  /* color means text color*/ color: white;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  /* make the coner curve out*/ border-radius: 12px;
+  
+}
+
+/* only apply when the user mouse is over the button   */button:hover{
+  background-color: lightgreen;
+  /* adding more details color: black;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  border-radius: 12px;*/
+}
+
+button:focus{
+  outline: none;
+}
+
+/* when you right click hold*/ button:active{
+  background-color: darkorange;
+}
+
+a{
+  color:darkgreen;
+  text-decoration: none;
+  font-style: 20px;
+}
+
+a:hover{
+  color: purple;
+}
+
+a:visted{
+  color: darkblue;
+}
+
+a:active{
+  color:aqua
+}
